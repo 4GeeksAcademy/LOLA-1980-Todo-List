@@ -10,3 +10,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.line-height {
+    line-height: 3;
+}
+
+.background-GrayLight {
+    background: #F1F1F1;
+}
+
+.list-group-item button span {
+    visibility: visible;
+    transition: visibility 0.3s ease-in-out;
+}
+
+.list-group-item button span.hidden-iconDelete {
+    visibility: hidden;
+}
+
+.list-group-item button:hover span.hidden-iconDelete {
+    visibility: visible;
+}
+
+.font-color-grey {
+    color: #d4d0d0;
+}
+
+.font-color-greyDark {
+    color: #a19696;
+}
+
+
+.font-size-55 {
+    font-size: 55px;
+}
